@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1635" />
+  <title>Space is For Everyone | SpaceX Learning Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Space is For Everyone home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span><strong>SPACE IS</strong><em>FOR EVERYONE</em></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="sideNav">☰ <span>Lessons</span></button>
+    </header>
+
+    <aside class="side-nav" id="sideNav" aria-label="Lesson navigation">
+      <div class="side-nav-inner">
+        <p class="eyebrow">Mission control</p>
+        <h2>Choose a launch route.</h2>
+        <nav id="lessonNav">
+          <a class="nav-link active" data-route="home" href="#home"><span class="nav-number">00</span><span>Launchpad</span></a>
+          <a class="nav-link" data-route="math" href="#math"><span class="nav-number">01</span><span>Math</span></a>
+          <a class="nav-link" data-route="science" href="#science"><span class="nav-number">02</span><span>Science</span></a>
+          <a class="nav-link" data-route="reading" href="#reading"><span class="nav-number">03</span><span>Reading &amp; Writing</span></a>
+          <a class="nav-link" data-route="design" href="#design"><span class="nav-number">04</span><span>Art &amp; Design</span></a>
+          <a class="nav-link" data-route="engineering" href="#engineering"><span class="nav-number">05</span><span>Engineering &amp; Tech</span></a>
+          <a class="nav-link" data-route="history" href="#history"><span class="nav-number">06</span><span>History &amp; Teamwork</span></a>
+        </nav>
+        <div class="side-note">
+          <span class="status-dot"></span>
+          <p><strong>All systems ready.</strong><br />Your next mission starts with a question.</p>
+        </div>
+      </div>
+    </aside>
+
+    <main id="app" tabindex="-1">
+      <section class="page home-page" data-page="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">A learning lab by SpaceX</p>
+            <h1>The path to space<br /><span>starts here.</span></h1>
+            <p class="hero-text">Space is not a place reserved for a certain kind of person. It is built by curious people who ask questions, test ideas, tell stories, and keep trying.</p>
+            <a class="primary-button" href="#math">Start exploring <span>↗</span></a>
+          </div>
+          <div class="hero-orbit" aria-label="Illustration of a spacecraft orbiting Earth">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="earth"><div class="earth-glow"></div><div class="land land-one"></div><div class="land land-two"></div><div class="land land-three"></div></div>
+            <div class="satellite"><span class="sat-body"></span><span class="sat-panel left"></span><span class="sat-panel right"></span></div>
+            <span class="star star-a"></span><span class="star star-b"></span><span class="star star-c"></span><span class="star star-d"></span>
+            <div class="orbit-label label-top">CURIOUSITY / 01</div><div class="orbit-label label-bottom">KEEP LOOKING UP</div>
+          </div>
+        </div>
+
+        <div class="intro-row">
+          <div><p class="eyebrow">Your mission</p><h2>Six subjects.<br /><span>One giant adventure.</span></h2></div>
+          <p>What you learn at school is not separate from space. Pick a subject to see the connection, then try a tiny mission that lets you use it.</p>
+        </div>
+        <div class="subject-grid">
+          <a class="subject-card card-blue" href="#math"><span class="card-index">01 / 06</span><span class="card-icon">∠</span><h3>Math</h3><p>Find the right path through orbit.</p><span class="card-arrow">↗</span></a>
+          <a class="subject-card card-orange" href="#science"><span class="card-index">02 / 06</span><span class="card-icon">✦</span><h3>Science</h3><p>Discover what makes a rocket move.</p><span class="card-arrow">↗</span></a>
+          <a class="subject-card card-lilac" href="#reading"><span class="card-index">03 / 06</span><span class="card-icon">Aa</span><h3>Reading &amp; Writing</h3><p>Turn mission data into a story.</p><span class="card-arrow">↗</span></a>
+          <a class="subject-card card-lime" href="#design"><span class="card-index">04 / 06</span><span class="card-icon">✳</span><h3>Art &amp; Design</h3><p>Give big ideas a shape and a signal.</p><span class="card-arrow">↗</span></a>
+          <a class="subject-card card-red" href="#engineering"><span class="card-index">05 / 06</span><span class="card-icon">⌘</span><h3>Engineering &amp; Tech</h3><p>Build, code, test, and try again.</p><span class="card-arrow">↗</span></a>
+          <a class="subject-card card-yellow" href="#history"><span class="card-index">06 / 06</span><span class="card-icon">◎</span><h3>History &amp; Teamwork</h3><p>See how humans make impossible real.</p><span class="card-arrow">↗</span></a>
+        </div>
+        <div class="quote-strip"><span class="quote-mark">“</span><p>You do not need to know everything about space. You just need to be willing to learn one more thing.</p><span class="quote-by">— SPACE IS FOR EVERYONE / LEARNING LAB</span></div>
+      </section>
+
+      <section class="page subject-page" data-page="math" hidden>
+        <div class="subject-hero subject-blue"><div><p class="eyebrow">Mission 01 / 06</p><h1>Math finds<br /><span>the way.</span></h1><p>Rockets do not just go “up.” Math helps a team choose a path, a speed, and the exact moment to launch so a spacecraft meets its destination.</p></div><div class="subject-symbol">∠<small>trajectory lab</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Orbit is a giant<br /><span>math problem.</span></h2><p>Angles, fractions, distance, and time help mission planners predict where a rocket will be later. A tiny change in the launch plan can send a spacecraft somewhere completely different.</p><div class="fact-line"><strong>In real missions</strong><span>Teams calculate thousands of possible paths before choosing one.</span></div></div><div class="activity-card activity-blue"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Find the launch window</h2><p>Choose the launch angle that gives our little spacecraft a smooth orbit.</p></div><div class="math-visual"><div class="math-earth"></div><div class="math-path" id="mathPath"></div><div class="math-ship">✦</div></div><div class="choice-row" id="mathChoices"><button data-angle="low">20°<small>too low</small></button><button data-angle="right">45°<small>just right</small></button><button data-angle="high">75°<small>too steep</small></button></div><p class="activity-feedback" id="mathFeedback" aria-live="polite">Pick an angle to plot the path.</p></div></div>
+      </section>
+
+      <section class="page subject-page" data-page="science" hidden>
+        <div class="subject-hero subject-orange"><div><p class="eyebrow">Mission 02 / 06</p><h1>Science makes<br /><span>flight possible.</span></h1><p>Physics explains thrust. Chemistry helps choose a fuel. Planetary science tells us what a spacecraft will meet when it arrives.</p></div><div class="subject-symbol">✦<small>propulsion lab</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Ask what is<br /><span>really happening.</span></h2><p>When a rocket burns fuel, hot gas rushes down and the rocket moves up. Scientists test materials, temperatures, and mixtures to make every launch safer.</p><div class="fact-line"><strong>In real missions</strong><span>Engineers measure every part of a burn, from the first spark to the final drop of fuel.</span></div></div><div class="activity-card activity-orange"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Fuel the launch</h2><p>Pick the propellant pair that can create a powerful, controlled burn.</p></div><div class="fuel-visual"><div class="fuel-rocket"><span class="rocket-window"></span><span class="rocket-fin"></span><span class="rocket-flame" id="rocketFlame"></span></div><div class="fuel-tank tank-left"><b>O₂</b><small>oxidizer</small></div><div class="fuel-tank tank-right"><b>CH₄</b><small>fuel</small></div></div><div class="fuel-choices" id="fuelChoices"><button data-fuel="water">H₂O + H₂O</button><button data-fuel="methane">O₂ + CH₄</button><button data-fuel="air">CO₂ + N₂</button></div><p class="activity-feedback" id="scienceFeedback" aria-live="polite">A rocket needs the right chemical teammates.</p></div></div>
+      </section>
+
+      <section class="page subject-page" data-page="reading" hidden>
+        <div class="subject-hero subject-lilac"><div><p class="eyebrow">Mission 03 / 06</p><h1>Words carry<br /><span>the mission.</span></h1><p>A mission report turns a stream of numbers into something a crew, a family, or a whole planet can understand. Clear writing keeps people connected.</p></div><div class="subject-symbol">Aa<small>communications lab</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Every mission<br /><span>needs a voice.</span></h2><p>Readers need the important part first: what happened, what changed, and what comes next. Writers choose details that help everyone picture the journey.</p><div class="fact-line"><strong>In real missions</strong><span>Communicators turn technical updates into messages that crews and communities can use.</span></div></div><div class="activity-card activity-lilac"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Write the dispatch</h2><p>Fill in the missing words, then send your mission report to Earth.</p></div><div class="report-paper"><span class="report-label">STARLINK / FIELD NOTE 04</span><p>At <select id="reportPlace"><option value="dawn">dawn</option><option value="midnight">midnight</option><option value="sunset">sunset</option></select>, our crew spotted a <select id="reportThing"><option value="bright comet">bright comet</option><option value="blue planet">blue planet</option><option value="storm cloud">storm cloud</option></select> moving across the window. We felt <select id="reportFeeling"><option value="ready">ready</option><option value="amazed">amazed</option><option value="brave">brave</option></select> for whatever came next.</p><span class="report-signoff">— MISSION CONTROL</span></div><button class="secondary-button" id="sendReport">Send report <span>↑</span></button><p class="activity-feedback" id="readingFeedback" aria-live="polite">Your words are waiting for a launch.</p></div></div>
+      </section>
+
+      <section class="page subject-page" data-page="design" hidden>
+        <div class="subject-hero subject-lime"><div><p class="eyebrow">Mission 04 / 06</p><h1>Design gives<br /><span>ideas a shape.</span></h1><p>A mission patch, a control panel, or a spacecraft all start as an idea someone can see. Design helps a whole team imagine the same future.</p></div><div class="subject-symbol">✳<small>visual lab</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Make it useful.<br /><span>Make it yours.</span></h2><p>Great design is more than decoration. It helps people find a button, remember a mission, or feel part of a story that is bigger than themselves.</p><div class="fact-line"><strong>In real missions</strong><span>Designers work with astronauts and engineers to make complex tools clear and human.</span></div></div><div class="activity-card activity-lime"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Build a mission patch</h2><p>Choose a color, symbol, and motto for your imaginary crew.</p></div><div class="patch-builder"><div class="patch-preview" id="patchPreview"><div class="patch-ring"></div><div class="patch-symbol" id="patchSymbol">✦</div><span id="patchMotto">LOOK FURTHER</span></div><div class="patch-controls"><div><label>Color</label><div class="swatches" id="swatches"><button class="swatch swatch-navy selected" data-color="navy" aria-label="Navy"></button><button class="swatch swatch-coral" data-color="coral" aria-label="Coral"></button><button class="swatch swatch-mint" data-color="mint" aria-label="Mint"></button></div></div><div><label>Signal</label><div class="symbol-buttons" id="symbolButtons"><button class="selected" data-symbol="✦">✦</button><button data-symbol="∞">∞</button><button data-symbol="◒">◒</button></div></div><label for="mottoInput">Motto <input id="mottoInput" maxlength="16" value="LOOK FURTHER" /></label></div></div><p class="activity-feedback" id="designFeedback" aria-live="polite">Your crew patch is ready to represent.</p></div></div>
+      </section>
+
+      <section class="page subject-page" data-page="engineering" hidden>
+        <div class="subject-hero subject-red"><div><p class="eyebrow">Mission 05 / 06</p><h1>Engineering turns<br /><span>ideas into motion.</span></h1><p>Engineers build the thing, write the code, test the parts, and learn from what does not work yet. Progress is a team sport.</p></div><div class="subject-symbol">⌘<small>rover lab</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Build. Test.<br /><span>Try again.</span></h2><p>A rover cannot ask which way to go. People write instructions in a careful order, then test them in a world that is not always predictable.</p><div class="fact-line"><strong>In real missions</strong><span>Software, hardware, and human decisions work together every second a spacecraft is flying.</span></div></div><div class="activity-card activity-red"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Code the rover</h2><p>The rover starts at START, facing east. Guide it to the gold GOAL.</p></div><div class="rover-game"><div class="rover-grid" id="roverGrid" aria-label="Rover grid"></div><div class="rover-status"><div class="rover-legend"><span><b class="legend-rover">▲</b> Rover / start</span><span><b class="legend-sample">◆</b> Sample / goal</span></div><div class="rover-command-heading"><span>COMMANDS <b id="commandCount">0 / 9</b></span><span id="roverDirection">Facing east →</span></div><div id="commandQueue" class="command-queue"><em>empty</em></div><button class="mini-button" id="clearCommands">Clear</button><button class="run-button" id="runRover">Run code <span>▶</span></button></div></div><div class="rover-controls" id="roverControls"><button data-command="↑">↑<small>forward</small></button><button data-command="↺">↺<small>turn left</small></button><button data-command="↻">↻<small>turn right</small></button></div><p class="activity-feedback" id="engineeringFeedback" aria-live="polite">Add commands, then run your code.</p></div></div>
+      </section>
+
+      <section class="page subject-page" data-page="history" hidden>
+        <div class="subject-hero subject-yellow"><div><p class="eyebrow">Mission 06 / 06</p><h1>History shows<br /><span>how we got here.</span></h1><p>Space exploration is a long story written by many kinds of people. Looking back helps us see how bold ideas become shared achievements.</p></div><div class="subject-symbol">◎<small>team archive</small></div></div>
+        <div class="lesson-layout"><div class="lesson-copy"><p class="eyebrow">Why it matters</p><h2>Big missions need<br /><span>many voices.</span></h2><p>Scientists, builders, pilots, writers, artists, teachers, and communities all shape what comes next. Teamwork connects one generation’s questions to another’s answers.</p><div class="fact-line"><strong>In real missions</strong><span>Every launch stands on years of ideas, experiments, teamwork, and lessons from missions before it.</span></div></div><div class="activity-card activity-yellow"><div class="activity-heading"><span class="activity-tag">Try it / 60 sec</span><h2>Build the mission team</h2><p>Tap a role to reveal how it helped make space history.</p></div><div class="team-timeline" id="teamTimeline"><button class="team-stop active" data-team="dream"><span>01</span><b>Ask</b><small>the big question</small></button><button class="team-stop" data-team="build"><span>02</span><b>Build</b><small>the first answer</small></button><button class="team-stop" data-team="share"><span>03</span><b>Share</b><small>what we learned</small></button></div><div class="team-story" id="teamStory"><span class="story-icon">?</span><div><strong>Dreamers start the mission.</strong><p>Someone has to ask, “What if we could?” That question gives a team a direction.</p></div></div><p class="activity-feedback" id="historyFeedback" aria-live="polite">A mission becomes history when people build it together.</p></div></div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>SPACE IS FOR EVERYONE / LEARNING LAB</span><span>KEEP LOOKING UP <i>✦</i></span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
